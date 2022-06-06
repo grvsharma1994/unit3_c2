@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    color: blueviolet;
+    justify-content: space-around;
+    background-color: aqua;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(83, 57, 201, 0.625);
+    margin-bottom: 22px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    height: 180px;
+    background-color: rgb(34, 95, 151);
+    color: aquamarine;
+}
+
+input {
+    padding: 9px 0;
+    text-align: center;
+    color: brown;
+    background-color: aquamarine;
+}
+
+#submit {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.625);
+    color: white;
+    border: none;
+}
